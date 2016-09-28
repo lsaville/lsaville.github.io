@@ -1,0 +1,205 @@
+/*
+  ==================
+  Reset
+  ==================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#kitten {
+  height: 100px;
+}
+
+/*
+  ==================
+  Header
+  ==================
+*/
+
+.header {
+  height: 100px;
+  background-color: #ddd;
+}
+
+.logo {
+  float: left;
+  /*border-top: 4px solid black;
+  border-bottom: 4px solid black;*/
+  margin-top: 10px;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ddd;
+}
+
+/*
+  ==================
+  Footer
+  ==================
+*/
+
+.copy {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+/*
+  ==================
+  Grid
+  ==================
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container,
+.grid {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+}
+
+.post h1 {
+  font-size: 200%;
+  padding: 20px 0 20px 0;
+}
+
+.post p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post {
+  color: black;
+  /*padding-left: 15px;*/
+  background-color: #fff;
+  width: 900px;
+  min-height: 600px;
+}
+
+p.date {
+  font-weight: 100;
+}
+
+.block {
+  padding: 30px;
+  width: 100%;
+}
+
+.block h2 {
+  font-size: 150%;
+}
+
+.block h4 {
+  color: #ddd;
+}
+
+div.content {
+  width: 900px;
+  padding-left: 25px;
+  margin: 0;
+}
+
+/*
+  ==================
+  Navigation
+  ==================
+*/
+
+.nav {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin-top: 33px;
+  letter-spacing: .25px;
+}
+
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ddd;
+}
+
+/*
+  ==================
+  Links
+  ==================
+*/
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #888;
+}
+
+.post-link:hover {
+  color: black;
+}
+
+.post-link:hover {
+  background-color: #FFC1AD;
+}
+
+.block:hover {
+  /*background-color: #FFC1AD;*/
+  background-color: #FFF6EB;
+
+}
+/*
+  ==================
+  Links
+  ==================
+*/

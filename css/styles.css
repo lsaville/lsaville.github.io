@@ -69,8 +69,6 @@ table {
 
 .logo {
   float: left;
-  /*border-top: 4px solid black;
-  border-bottom: 4px solid black;*/
   margin-top: 10px;
   font-size: 50px;
   line-height: 60px;
@@ -106,11 +104,6 @@ table {
   margin: 0 auto;
 }
 
-.container {
-  /*padding-left: 30px;
-  padding-right: 30px;*/
-}
-
 .post h1 {
   font-size: 200%;
   padding: 20px 0 20px 0;
@@ -123,7 +116,6 @@ table {
 
 .post {
   color: black;
-  /*padding-left: 15px;*/
   background-color: #fff;
   width: 900px;
   min-height: 600px;
@@ -167,12 +159,6 @@ div.content {
   letter-spacing: .25px;
 }
 
-body {
-  color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #ddd;
-}
-
 /*
   ==================
   Links
@@ -194,13 +180,18 @@ a:hover {
   background-color: #FFC1AD;
 }
 
-.block:hover {
-  /*background-color: #FFC1AD;*/
-  background-color: #FFF6EB;
-
-}
 /*
   ==================
-  Links
+  Styles
   ==================
 */
+
+.block:hover {
+  background-color: #FFF6EB;
+}
+
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ddd;
+}

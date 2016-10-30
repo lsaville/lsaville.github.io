@@ -195,3 +195,7 @@ body {
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #ddd;
 }
+
+img {
+  text-align: center;
+}

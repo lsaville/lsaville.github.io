@@ -4,13 +4,15 @@ layout: post
 date: 2016-10-30
 ---
 
-<h1>Fabrication with Faker</h1>
-
 <h3>For those times when you want your tests looking good...</h3>
 <p>
   You might reach out to use factory girl because it's familiar. That makes sense. I felt the same way. Recently I worked to overcome that to learn a bit more about fabrication and what its all about. I'll share with you what I found.
 </p>
 
 <p>
-  Check out fabrication at it's slick website <link href="https://www.fabricationgem.org/">fabrication.org</link> or on <link href="https://github.com/paulelliott/fabrication">github</link>. The setup is very familiar if you've dealt with factory girl, just toss the line in your gemfile and make a a sub-folder "fabricators" in your rails project's spec folder. <img src="/images/gemfile.png" alt="lines from sample gemfile" /><br> From there you can create a file called "fabricator.rb" where the actual magic happens.
+  Check out fabrication at it's slick website <a href="https://www.fabricationgem.org/">fabrication.org</a> or on <a href="https://github.com/paulelliott/fabrication">github</a>. The setup is very familiar if you've dealt with factory girl, just toss the line in your gemfile and make a a sub-folder "fabricators" in your rails project's spec folder. From there you can create a file called "fabricator.rb" where the actual magic happens.
+</p>
+
+<p>
+  Additionally in my last project, I paired fabrication with <a href="https://github.com/stympy/faker">faker</a>, a gem that spews out random data on command with fun categories like "hipster", "starwars", and "superhero". Again its a simple add to your project's gemfile.
 </p>

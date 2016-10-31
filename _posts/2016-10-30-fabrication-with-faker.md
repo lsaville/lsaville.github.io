@@ -86,6 +86,7 @@ byebug
 ### Conclusion
 I hope what little I've touched on regarding fabrication is helpful if you needed a little push to get started. Big picture, I'm not clear on whether factory girl or fabrication is superior. In my experience fabrication syntax seemed slightly more intuitive, especially regarding the creation of relations between objects.<br><br>
 Happy testing!
+
 [0]: https://www.fabricationgem.org/
 [1]: https://github.com/paulelliott/fabrication
 [2]: https://github.com/stympy/faker
